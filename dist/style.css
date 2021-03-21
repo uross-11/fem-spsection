@@ -275,11 +275,16 @@ body {
   }
 }
 
+.review__three {
+  margin-bottom: 100px;
+}
+
 @media (min-width: 1400px) {
   .review__three {
     -webkit-transform: translateY(32px);
             transform: translateY(32px);
     margin-right: 0;
+    margin-bottom: 0;
   }
 }
 
