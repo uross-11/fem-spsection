@@ -7,80 +7,83 @@
     <title>Social proof section</title>
     <link rel="stylesheet" href="/dist/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app/css/animate.css">
+    <script src="/app/js/wow.min.js"></script>
+    <script src="/app/js/script.js"></script>
 </head>
 <body>
-    <div class="bg">
-        <div class="bg__top"></div>
-        <div class="bg__bottom"></div>
+    <div class="container">
+        <section class="head wow fadeIn" data-wow-duration="2s">
+            <h1 class="head__title">10,000+ of our users love our products.</h1>
+            <p class="head__description">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+        </section>
+        <section class="rating wow fadeInRight" data-wow-delay="0.5s">
+            <div class="rating__one">
+                <div class="rating__stars">
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                </div>
+                <div class="rating__text">Rated 5 Stars in Reviews</div>
+            </div>
+            <div class="rating__two">
+                <div class="rating__stars">
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                </div>
+                <div class="rating__text">Rated 5 Stars in Report Guru</div>
+            </div>
+            <div class="rating__three">
+                <div class="rating__stars">
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                    <div class="rating__stars__star"></div>
+                </div>
+                <div class="rating__text">Rated 5 Stars in BestTech</div>
+            </div>
+        </section>
     </div>
-    <section class="head">
-        <h1 class="head__title">10,000+ of our users love our products.</h1>
-        <p class="head__description">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
-    </section>
-    <section class="rating">
-        <div class="rating__one">
-            <div class="rating__stars">
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-            </div>
-            <span class="rating__text">Rated 5 Stars in Reviews</span>
-        </div>
-        <div class="rating__two">
-            <div class="rating__stars">
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-            </div>
-            <span class="rating__text">Rated 5 Stars in Report Guru</span>
-        </div>
-        <div class="rating__three">
-            <div class="rating__stars">
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-                <div class="rating__stars__star"></div>
-            </div>
-            <span class="rating__text">Rated 5 Stars in BestTech</span>
-        </div>
-    </section>
-    <section class="review">
-        <div class="review__one">
-            <div class="review__head">
-                <img class="review__user" src="images/image-colton.jpg" alt="Colton Smith">
-                <div class="review__head__name">
-                    <span class="review__name">Colton Smith</span>
-                    <span class="review__description">Verified Buyer</span>
+    <div class="container">
+        <section class="review wow fadeInUp" data-wow-delay="1s">
+            <div class="review__one">
+                <div class="review__head">
+                    <img class="review__user" src="images/image-colton.jpg" alt="Colton Smith">
+                    <div class="review__head__name">
+                        <span class="review__name">Colton Smith</span>
+                        <span class="review__description">Verified Buyer</span>
+                    </div>
                 </div>
+                <div class="review__story">" We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! "</div>
             </div>
-            <div class="review__story">" We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! "</div>
-        </div>
-        <div class="review__two">
-            <div class="review__head">
-                <img class="review__user" src="/images/image-irene.jpg" alt="Irene Roberts">
-                <div class="review__head__name">
-                    <span class="review__name">Irene Roberts</span>
-                    <span class="review__description">Verified Buyer</span>
+            <div class="review__two">
+                <div class="review__head">
+                    <img class="review__user" src="/images/image-irene.jpg" alt="Irene Roberts">
+                    <div class="review__head__name">
+                        <span class="review__name">Irene Roberts</span>
+                        <span class="review__description">Verified Buyer</span>
+                    </div>
                 </div>
+                <div class="review__story">" Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery. "</div>
             </div>
-            <div class="review__story">" Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery. "</div>
-        </div>
-        <div class="review__three">
-            <div class="review__head">
-                <img class="review__user" src="/images/image-anne.jpg" alt="Anne Wallace">
-                <div class="review__head__name">
-                    <span class="review__name">Anne Wallace</span>
-                    <span class="review__description">Verified Buyer</span>
+            <div class="review__three">
+                <div class="review__head">
+                    <img class="review__user" src="/images/image-anne.jpg" alt="Anne Wallace">
+                    <div class="review__head__name">
+                        <span class="review__name">Anne Wallace</span>
+                        <span class="review__description">Verified Buyer</span>
+                    </div>
                 </div>
+                <div class="review__story">" Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! "</div>
             </div>
-            <div class="review__story">" Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! "</div>
-        </div>
-    </section>
+        </section>
+    </div>
 </body>
 </html>
